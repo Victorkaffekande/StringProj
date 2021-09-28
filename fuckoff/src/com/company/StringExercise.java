@@ -1,5 +1,8 @@
 package com.company;
 
+import java.util.Arrays;
+import java.util.stream.Stream;
+
 public class StringExercise {
     public String addTags(String input) {
         return "<" + input + ">";
@@ -48,5 +51,4 @@ public class StringExercise {
         }
         return str;
     }
-
 }
