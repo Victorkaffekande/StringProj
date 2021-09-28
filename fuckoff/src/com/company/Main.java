@@ -19,5 +19,9 @@ public class Main {
 
         //reverse string
         System.out.println(stringExercise.reverseString(input));
+
+        //Convert to morse
+        String string = stringExercise.convertToMorse(input);
+        System.out.println(string);
     }
 }
