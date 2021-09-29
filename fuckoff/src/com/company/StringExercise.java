@@ -1,7 +1,6 @@
 package com.company;
 
 import java.util.Arrays;
-import java.util.stream.Stream;
 
 public class StringExercise {
     public String addTags(String input) {
@@ -27,17 +26,17 @@ public class StringExercise {
         char[] english = {'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l',
                 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x',
                 'y', 'z', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0',
-                ',', '.', '?',' '};
+                ',', '.', '?', ' '};
 
         String[] morse = {".-", "-...", "-.-.", "-..", ".", "..-.", "--.", "....", "..",
                 ".---", "-.-", ".-..", "--", "-.", "---", ".---.", "--.-", ".-.",
                 "...", "-", "..-", "...-", ".--", "-..-", "-.--", "--..", ".----",
                 "..---", "...--", "....-", ".....", "-....", "--...", "---..", "----.",
                 "-----", "--..--", ".-.-.-", "..--..", "/"};
-
-        //String userInput = keyboard.nextLine().toLowerCase();
+        //force lowercase
         String userInput = input.toLowerCase();
 
+        // make array out of input
         char[] chars = userInput.toCharArray();
 
         String str = "";
@@ -51,4 +50,19 @@ public class StringExercise {
         }
         return str;
     }
+
+    public static String censorString(String input) {
+        String[] censorList = {"horse", "spores", "saddle"};
+        StringBuilder sb = new StringBuilder(input);
+
+        for (String word : censorList) {
+            int index = input.indexOf(word);
+            while (index >= 0) {
+                sb.replace(index, index + word.length(), "*".repeat(word.length()));
+                index = sb.indexOf(word);
+            }
+        }
+        return sb.toString();
+    }
+
 }
