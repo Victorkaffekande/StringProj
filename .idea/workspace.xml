@@ -18,8 +18,8 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/fuckoff/out/production/fuckoff/com/company/Main.class" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/fuckoff/out/production/fuckoff/com/company/StringExercise.class" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/fuckoff/out/production/fuckoff/com/company/Main.class" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="1ylUdm7bWHPostTbGYK7z6K9qKG" />
   <component name="ProjectViewState">
@@ -73,6 +73,7 @@
       <workItem from="1632845910100" duration="6304000" />
       <workItem from="1632852432544" duration="114000" />
       <workItem from="1632899485877" duration="12118000" />
+      <workItem from="1632920508282" duration="11636000" />
     </task>
     <servers />
   </component>
