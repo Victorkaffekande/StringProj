@@ -110,8 +110,9 @@ public class StringExercise {
         for (int i = 0; i < chars.length; i++) {
             for (int j = 0; j < leet.length; j++) {
 
-                if (english[j] == chars[i]) {
+                if (chars[i] == english[j]) {
                     str = str + leet[j];
+                    break;
                 }
             }
         }

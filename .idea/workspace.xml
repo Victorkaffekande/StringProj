@@ -6,10 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ca1a9c8b-f7ba-4b91-8b30-953c1ad110a6" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuckoff/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/fuckoff/src/com/company/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fuckoff/src/com/company/StringExercise.java" beforeDir="false" afterPath="$PROJECT_DIR$/fuckoff/src/com/company/StringExercise.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/StringProj/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StringProj/com/company/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/StringProj/com/company/StringExercise.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StringProj/com/company/StringExercise.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +17,8 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/fuckoff/out/production/fuckoff/com/company/StringExercise.class" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/fuckoff/out/production/fuckoff/com/company/Main.class" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/fuckoff/out/production/fuckoff/com/company/StringExercise.class" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="1ylUdm7bWHPostTbGYK7z6K9qKG" />
   <component name="ProjectViewState">
@@ -78,6 +75,8 @@
       <workItem from="1632920508282" duration="11636000" />
       <workItem from="1632945055329" duration="8405000" />
       <workItem from="1632991885257" duration="4410000" />
+      <workItem from="1632997200720" duration="80000" />
+      <workItem from="1633008653021" duration="5448000" />
     </task>
     <servers />
   </component>
