@@ -5,8 +5,9 @@ public class Main {
     public static void main(String[] args) {
         StringExercise stringExercise = new StringExercise();
 
-        String input = "Test horse horse spores saddle test";
+        String input = "test, horse test blazing. saddles leet";
         String palInput = "EvaCanIStab";
+        String filter = "trda";
 
         //add tags
         System.out.println(stringExercise.addTags(input));
@@ -34,6 +35,10 @@ public class Main {
 
         //to leet
         System.out.println(stringExercise.to1337(input));
+
+        //filter string
+        System.out.println(stringExercise.filterString(input, filter));
+
 
     }
 }

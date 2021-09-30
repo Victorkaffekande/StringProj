@@ -96,8 +96,7 @@ public class StringExercise {
     public String to1337(String input) {
         char[] english = {' ', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l',
                 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x',
-                'y', 'z', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0',
-                ',', '.', '?'};
+                'y', 'z'};
         String[] leet = {" ", "4", "|3", "(", "|)", "3", "|=", "6", "|-|", "|", "9", "|<", "1", "|v|", "|/|",
                 "0", "|*", "0,", "|2", "5", "7", "|_|", "|/", "|/|/", "><", "`/", "2"};
 
@@ -119,5 +118,46 @@ public class StringExercise {
         return str;
     }
 
+    public String filterString(String input, String filter) {
+        char[] filterChar = filter.toCharArray();
+        char[] inputChar = input.toCharArray();
+
+        StringBuilder sb = new StringBuilder();
+
+        for (int i = 0; i < input.length(); i++) {
+            boolean added = false;
+            for (int k = 0; k < filter.length(); k++) {
+                if (inputChar[i] == filterChar[k]) {
+                    sb.append(inputChar[i]);
+                    added = true;
+                }
+            }
+            if (!added) {
+                sb.append("*");
+            }
+        }
+        return sb.toString();
+    }
+
+    /*
+    fucking what
+
+    public String expandString(String input) {
+        char[] chars = input.toCharArray();
+        int[] numbers = {0,1,2,3,4,5,6,7,8,9};
+
+        StringBuilder sb = new StringBuilder();
+
+        for (int i = 0; i < input.length(); i++){
+            for (int k = 0; k < numbers.length; k++){
+
+            }
+
+        }
+
+
+        return "";
+    }
+    */
 }
 
