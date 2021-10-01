@@ -5,13 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ca1a9c8b-f7ba-4b91-8b30-953c1ad110a6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fuckoff/src/com/company/NumberConversionModel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fuckoff/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/fuckoff/src/com/company/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fuckoff/src/com/company/StringExercise.java" beforeDir="false" afterPath="$PROJECT_DIR$/fuckoff/src/com/company/StringExercise.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/StringProj/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StringProj/com/company/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/StringProj/com/company/StringExercise.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StringProj/com/company/StringExercise.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -28,6 +40,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -77,10 +90,22 @@
       <workItem from="1632991885257" duration="4410000" />
       <workItem from="1632997200720" duration="80000" />
       <workItem from="1633008653021" duration="5448000" />
+      <workItem from="1633071737006" duration="8566000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

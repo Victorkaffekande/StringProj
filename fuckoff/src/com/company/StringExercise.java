@@ -140,25 +140,39 @@ public class StringExercise {
         return sb.toString();
     }
 
-    /*
-    fucking what
 
     public String expandString(String input) {
         char[] chars = input.toCharArray();
-        int[] numbers = {0,1,2,3,4,5,6,7,8,9};
+        char[] numbers = {'0','1', '2', '3', '4', '5', '6', '7', '8', '9'};
 
         StringBuilder sb = new StringBuilder();
 
-        for (int i = 0; i < input.length(); i++){
-            for (int k = 0; k < numbers.length; k++){
-
+        for (int i = 0; i < input.length(); i++) {
+            boolean foundNum = false;
+            int multiplier = 0;
+            for (int n = 0; n < numbers.length; n++) {
+                if (chars[i] == numbers[n]) {
+                    foundNum = true;
+                    multiplier = Integer.parseInt(String.valueOf(chars[i]));
+                    System.out.println();
+                }
             }
-
+            if (!foundNum) {
+                sb.append(chars[i]);
+            }
+            else{
+                String str = sb.toString();
+                System.out.println(multiplier);
+                for(int k = multiplier; k > 1; k--)
+                {
+                    sb.append(str);
+                }
+            }
         }
-
-
-        return "";
+        String output = sb.toString();
+        output = output.replaceAll("\\*","");
+        return output;
     }
-    */
+
 }
 

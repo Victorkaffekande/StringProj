@@ -4,11 +4,16 @@ public class Main {
 
     public static void main(String[] args) {
         StringExercise stringExercise = new StringExercise();
+        NumberConversionModel nCM = new NumberConversionModel();
 
-        String input = "test, horse test blazing. saddles leet";
+
+        String input = "hello*3 test*2";
         String palInput = "EvaCanIStab";
         String filter = "trda";
 
+        // extend string
+        System.out.println(stringExercise.expandString(input));
+/*
         //add tags
         System.out.println(stringExercise.addTags(input));
 
@@ -39,6 +44,6 @@ public class Main {
         //filter string
         System.out.println(stringExercise.filterString(input, filter));
 
-
+*/
     }
 }
