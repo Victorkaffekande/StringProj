@@ -20,7 +20,6 @@ public class StringExercise {
 
     }
 
-
     public String toMorse(String input) {
         char[] english = {'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l',
                 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x',
@@ -109,7 +108,6 @@ public class StringExercise {
         String str = "";
         for (int i = 0; i < chars.length; i++) {
             for (int j = 0; j < leet.length; j++) {
-
                 if (chars[i] == english[j]) {
                     str = str + leet[j];
                     break;
@@ -143,7 +141,7 @@ public class StringExercise {
 
     public String expandString(String input) {
         char[] chars = input.toCharArray();
-        char[] numbers = {'0','1', '2', '3', '4', '5', '6', '7', '8', '9'};
+        char[] numbers = {'0', '1', '2', '3', '4', '5', '6', '7', '8', '9'};
 
         StringBuilder sb = new StringBuilder();
 
@@ -154,23 +152,19 @@ public class StringExercise {
                 if (chars[i] == numbers[n]) {
                     foundNum = true;
                     multiplier = Integer.parseInt(String.valueOf(chars[i]));
-                    System.out.println();
                 }
             }
             if (!foundNum) {
                 sb.append(chars[i]);
-            }
-            else{
+            } else {
                 String str = sb.toString();
-                System.out.println(multiplier);
-                for(int k = multiplier; k > 1; k--)
-                {
+                for (int k = multiplier; k > 1; k--) {
                     sb.append(str);
                 }
             }
         }
         String output = sb.toString();
-        output = output.replaceAll("\\*","");
+        output = output.replaceAll("\\*", "");
         return output;
     }
 

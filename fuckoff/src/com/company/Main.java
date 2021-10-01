@@ -7,7 +7,7 @@ public class Main {
         NumberConversionModel nCM = new NumberConversionModel();
 
 
-        String input = "hello*3 test*2";
+        String input = "hello*2 test*2";
         String palInput = "EvaCanIStab";
         String filter = "trda";
 
